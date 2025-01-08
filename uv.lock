@@ -5,6 +5,12 @@ resolution-markers = [
     "python_full_version >= '3.11'",
 ]
 
+[manifest]
+members = [
+    "pushbutt",
+    "toggle-tapo",
+]
+
 [[package]]
 name = "aiohappyeyeballs"
 version = "2.4.4"
@@ -2055,6 +2061,84 @@ wheels = [
 ]
 
 [[package]]
+name = "tapo"
+version = "0.8.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/6b/f6b23ebfc04b83270083a6ae5399b29478e9f70f5a80c7127833b495e334/tapo-0.8.0.tar.gz", hash = "sha256:113b0ba36c472004f1a06b655062fb15c503801fd14e0c1e6977815d2d19865f", size = 119477 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/21/8e/c3b5cf63fe0a66ee9b13b55d1b292ce23003ca4480ec676a3aa5559e3afd/tapo-0.8.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:544380a3c88dd92cfbd4707932e293f558bf8f5c0ec8840446d7ad644326627b", size = 3178043 },
+    { url = "https://files.pythonhosted.org/packages/44/63/1d04d6d6f8165a1f290ca066be655c924efe7708e3549af138d7e02d118b/tapo-0.8.0-cp310-cp310-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:585ab30fb5a844e248e8b332e4f3ebd82690c1ec0823f154c835161fbbe656e0", size = 3118952 },
+    { url = "https://files.pythonhosted.org/packages/12/19/c44fb1301f26ac433342d8640bb6e18fa22f325b5eb7164fc3e0ae112a5e/tapo-0.8.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:06baba28e4989034737de49cc6288e2bdeb3abf3db0f2d86cae8b7250d8005b3", size = 3419594 },
+    { url = "https://files.pythonhosted.org/packages/12/cd/04a79fa1842e6305aaf480f64a3997c3c7040d7eb0f908f92aab7b666cef/tapo-0.8.0-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:a668dec00886e6d2c24b2c54be8a4ca5ca39264ae13627a2592da38a74bf191a", size = 3340220 },
+    { url = "https://files.pythonhosted.org/packages/3f/a5/71ff2a6389d2dd62937d6d379bbd774f0955450d8e77fa03c770450262cd/tapo-0.8.0-cp310-cp310-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:92521b62fddcdfd0fbf0ce0052da44dc12a1904653bb1835450e2d0d1a34c998", size = 3789584 },
+    { url = "https://files.pythonhosted.org/packages/2d/76/6f3bc979256a60950ecfba85b52800199847ef73baf3f5b1685e957f0e6b/tapo-0.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:62597e786053cb18d3275e485243647483ee63756a0510657c0660d19a810d78", size = 3242585 },
+    { url = "https://files.pythonhosted.org/packages/95/00/7e7f112770e0e1c300ec4ac916cc6624ca65c597f2a8a916338cc549d49d/tapo-0.8.0-cp310-cp310-musllinux_1_2_aarch64.whl", hash = "sha256:5e649e52c3fa573df6da51ae27856bb9e8ab4ff69ceffded15fa6994feeff410", size = 3331130 },
+    { url = "https://files.pythonhosted.org/packages/6c/63/604577fd151b80affe8321d1900ce1093d98dcfacfeffffb1936a8be6a9a/tapo-0.8.0-cp310-cp310-musllinux_1_2_armv7l.whl", hash = "sha256:eb1f32710c0d4308a16e532c55b82d302d2e31d91ff5e60669949f19e0369d2d", size = 3377223 },
+    { url = "https://files.pythonhosted.org/packages/c4/3b/0cbf3c75c9dbbe4788f930916488abe617b8e46d564f122057c8e5aa0610/tapo-0.8.0-cp310-cp310-musllinux_1_2_i686.whl", hash = "sha256:b28debb4a223fff4c87086d01efaa24c4d582367ad60c20a1dfb04da31511fbd", size = 3454882 },
+    { url = "https://files.pythonhosted.org/packages/ca/91/847a2da2e5248cb1935e7ca6934368a83b534f3b1d9bf4dca658bc8e7895/tapo-0.8.0-cp310-cp310-musllinux_1_2_x86_64.whl", hash = "sha256:4de88864282c59a4bca9b4b2ac74eab3617b56e32a95bbd0bc6641f319cd3399", size = 3408197 },
+    { url = "https://files.pythonhosted.org/packages/84/c4/43ab2ccf54659da4110bfbc0a3f2b9ca2b57b5c20888f0f83212f591bc04/tapo-0.8.0-cp310-cp310-win32.whl", hash = "sha256:0df8b716df8c693141147f027cda7ef88768d076a1279513cf48cbe39a793d9f", size = 2347340 },
+    { url = "https://files.pythonhosted.org/packages/e9/0c/88998c712b02c733f2f1b753bc9e00431543aa3efa1ea0e558a2b1001adf/tapo-0.8.0-cp310-cp310-win_amd64.whl", hash = "sha256:5b8e643d1ad7dabbb221a9dfbaa09214190cd9e66d4e4c1498c49a043d339dd6", size = 2652178 },
+    { url = "https://files.pythonhosted.org/packages/72/8d/3131895022bc3f687642e33933ca04ebf8e9391b08ac9d8bd48a3c315c5a/tapo-0.8.0-cp311-cp311-macosx_10_12_x86_64.whl", hash = "sha256:9e5b363d43660f3c2702bab06183d8c984a89dd97e9ae4c13f491331f089c4ff", size = 2934039 },
+    { url = "https://files.pythonhosted.org/packages/65/c6/4b0a3f32a3d21d5d61477e744500af2db616de59008bc57299c7331bbbcb/tapo-0.8.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:e6fb3bcc1504a0f2c94423e6fdd7478bcb5bb688e1e2b73fa0c7db78cf4b2238", size = 2840318 },
+    { url = "https://files.pythonhosted.org/packages/2e/4c/c75a5e9b11645e6ed77fbb43e8bb69b6f7e2846dba0510584265b5ef3f4c/tapo-0.8.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:01e9d6a6987671881f80fd302269bdd68e37b4c2e2623950391a04af03a13aaa", size = 3177713 },
+    { url = "https://files.pythonhosted.org/packages/c3/e3/af0a1f088e2d96be1c5772e0f9cc7d1e1442c9872b162902be113917e544/tapo-0.8.0-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:2c2619fae728505e9fa69e4395a348a67e8155b5a0d06b394f709fdfcc9686a1", size = 3118674 },
+    { url = "https://files.pythonhosted.org/packages/b8/f6/4a368cd572a464ca3ca160db87c99be63de47d5f1370991bedf32f44f0a3/tapo-0.8.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:8f3a8b9b425cd76ff04099ce492cfa1f5d469104ca8bbee743c7a164e9782ee9", size = 3420786 },
+    { url = "https://files.pythonhosted.org/packages/d5/d9/8ca077e55c01eb350ddf2e514fee312bbcd3163d1d31664435b4cb1da9bc/tapo-0.8.0-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:e5274ac41ef471a2798ae42a70fe41c26644fe3e6c12ae1c148d637d60c181b4", size = 3340856 },
+    { url = "https://files.pythonhosted.org/packages/29/13/983f4c4caa2cff077ef48cba9e74969badae9242747d804e7b0156a397d9/tapo-0.8.0-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:4a41b6f649f22e4c4e81639ed82a7515869b464e59205fc676884525b3ade26b", size = 3788629 },
+    { url = "https://files.pythonhosted.org/packages/bb/20/e2b063def6fe8a075a1c857edd2e7142f6bac4e003a5ec8c6f4dcf20de25/tapo-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:01f4ce47799c149dd33ca5fc313228e1fb21332e1f62da63323b7bb381a6ae63", size = 3243888 },
+    { url = "https://files.pythonhosted.org/packages/62/76/1f5c95d9f260c30e988078540e8e989dcadc1fde01d7217a1ad08aa5a8e2/tapo-0.8.0-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:c457c9b106cfdea2a6053aae44ce2cbbef792fccbef0b13912c1cd3e15d7bdcd", size = 3330458 },
+    { url = "https://files.pythonhosted.org/packages/d3/44/262a530feb311f7aa1b8f1af2883f81e1caf8df14eca579fb3a6134b223f/tapo-0.8.0-cp311-cp311-musllinux_1_2_armv7l.whl", hash = "sha256:bdb7d60f8c5d24b7fed5add71c440e0edcb23df01337f69e09a0c489065b1eb2", size = 3377803 },
+    { url = "https://files.pythonhosted.org/packages/93/2c/c6cc13a6b087ce052fcc63fdeb2d4402c94f2f2934c6993487e724a9c3bc/tapo-0.8.0-cp311-cp311-musllinux_1_2_i686.whl", hash = "sha256:23644c578e2cbdc8b7734e795d9032f9d6bf5f1c9a043b46bb6eb5a9c9cb29d1", size = 3454809 },
+    { url = "https://files.pythonhosted.org/packages/f1/e3/568e0df47a0be5356a82846d7531d1551c2b5348f77b9d6078b26d3c0d09/tapo-0.8.0-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:052dcdb4a22c2049b492119d783b57f6c020357792085ca2c9b2b097153f99a0", size = 3409512 },
+    { url = "https://files.pythonhosted.org/packages/cb/50/53a090ec74d08b011e06610a0597988ec415c75504bd780c550a5f825d0b/tapo-0.8.0-cp311-cp311-win32.whl", hash = "sha256:7d846b45e5ffd3a91a3ef57fb8fdf5556e1c94e7effb5d1dda971fd206fdc31d", size = 2347771 },
+    { url = "https://files.pythonhosted.org/packages/99/14/1d9882c487f18c335801f9b145acf201d5a7e0187a8ef16ae5c7afb95897/tapo-0.8.0-cp311-cp311-win_amd64.whl", hash = "sha256:b0efa28f42134c1ef814442e4c8ae231113fb7bbbec3f67343845731d69cce38", size = 2652416 },
+    { url = "https://files.pythonhosted.org/packages/fc/6b/b2c462e71bb7ad6ec94a2cf081036838925be78d6df4d2d107688d3721dc/tapo-0.8.0-cp312-cp312-macosx_10_12_x86_64.whl", hash = "sha256:c4bc666e65d606cecea440f030bec6f7a4f330a265c57b7afc08cc3059dd8276", size = 2922071 },
+    { url = "https://files.pythonhosted.org/packages/c9/d8/5517d01aac88f6c6dc7ffdad1de3b7ce6fd7d224870c8a369de260856718/tapo-0.8.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:22660df8dde017741145f33d951624e059f9e6be35aeaf25f200b86f373d3b03", size = 2829345 },
+    { url = "https://files.pythonhosted.org/packages/ab/71/e17edb4390287bcecdb140aa96a7e7175dbb373d04c1fc77b0f9612a7ac9/tapo-0.8.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f97a6f573368c98d1401a48cbccb840aa208722fe3fc7a22d20f041af79dff22", size = 3176337 },
+    { url = "https://files.pythonhosted.org/packages/62/d6/f77e2d61fd73f64c90b186e58b77230e58d99e26b194ca1c15b1167ddfe9/tapo-0.8.0-cp312-cp312-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:3f49014158d8167613bddc5a0d3e9674dd26caf9cf6f0526e1e3a96cf3c9d343", size = 3124706 },
+    { url = "https://files.pythonhosted.org/packages/47/e0/676320f9c209a0af0bf750a8ac58f1c56a4b21bfa90d54d089501248da07/tapo-0.8.0-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:c22ed0117a09a87fb1e7ea19afa5ac81f5ab55021c0c0a1f8635b40f50202503", size = 3424747 },
+    { url = "https://files.pythonhosted.org/packages/94/b6/278a24280d709414e8f9a686ef5bdef5fa8f148042ee128288bc83d68618/tapo-0.8.0-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:c1d5918fcabec03629c33e3823a4ad593bf48dbb224f743a1b3e8517800fffaa", size = 3343853 },
+    { url = "https://files.pythonhosted.org/packages/07/26/7794f9a73a898c4068839384f65e4daf0bb91cff30b929044c3015236ab8/tapo-0.8.0-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:b2e6a466a590505862276dacdd957302e1e1ab3ad61dcecce946b41306b9cf6e", size = 3783515 },
+    { url = "https://files.pythonhosted.org/packages/dd/1f/aaf0d9c9356260f75cf73f749e691917b3496708b62d69d744fdf6c59a83/tapo-0.8.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:62aaa0060105090d53b522be802c0e895fa98471579f4e1fb5ad69dab85fca2c", size = 3251489 },
+    { url = "https://files.pythonhosted.org/packages/3a/35/d2fe5132fe11e4922c78cf33d4c942bd270b86773197fd5edf3ea2643e36/tapo-0.8.0-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:71c21ba373d20f9aa71ace3219bcf491cfeeb9fada0da68cd243bf9acb9478f5", size = 3331927 },
+    { url = "https://files.pythonhosted.org/packages/e9/04/4ad606cc7dfc8cdf4ab5f19fa43d30d88a634db73c68f9561d356d46b0db/tapo-0.8.0-cp312-cp312-musllinux_1_2_armv7l.whl", hash = "sha256:51edf1453f86fa53c3682b2240991b9a62e579919a7d4ee9979a9c6ea1fad481", size = 3381556 },
+    { url = "https://files.pythonhosted.org/packages/ad/31/d8ad06cdbfe1d38954b1e40d1b244b72679a11e4e07b66ec559cbb4d7fb1/tapo-0.8.0-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:35f534dfd3db7968d4135ede20b4d46569d917ac809e3b7d002c322a3fd75a9b", size = 3458693 },
+    { url = "https://files.pythonhosted.org/packages/6e/c6/10959b7aaf43a7abf6ff51709072980fd15b2b726f27d7af52ad172995e3/tapo-0.8.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:2002fe34c392e84341a22cc09915dc92487509025dae75c5e785b66ae14fe687", size = 3422872 },
+    { url = "https://files.pythonhosted.org/packages/30/4f/1be8908e5a2d6fd82d3c5d15fb5f3383f223201375eb483f8473597248ef/tapo-0.8.0-cp312-cp312-win32.whl", hash = "sha256:5aa96bbaf70a60c46d4a4e73868734ee72d6296afd2599af3a2593b4d1c932a5", size = 2347839 },
+    { url = "https://files.pythonhosted.org/packages/b2/56/5310265eb7c6d53c1e840b0dcfd7dca586102c024549d9c6ef6b720330a8/tapo-0.8.0-cp312-cp312-win_amd64.whl", hash = "sha256:d20f15ba18e5218760f1b2d7e92cf112615e431ac1291ecd9ba0fcea77537b6f", size = 2661129 },
+    { url = "https://files.pythonhosted.org/packages/7f/6d/c7389534e51388bf35cc53da824c269b17755d82f250e0a2ff5d52403c1a/tapo-0.8.0-cp313-cp313-macosx_10_12_x86_64.whl", hash = "sha256:01377019255a419db6c00ace3ee4a1960672420509b4246605032edec7ff5dc0", size = 2921300 },
+    { url = "https://files.pythonhosted.org/packages/6b/a0/c1412106471b7a63a4c1c27ea52ccb9f31e5817be306dc96d71758ff8d09/tapo-0.8.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:67d6c58948919f1863ed780bc383542da199762fc92791ea2dcc37f1d9193a54", size = 2828734 },
+    { url = "https://files.pythonhosted.org/packages/69/74/def8e78ed215207be279f1df90a65f9defeecbaeb59924ffeb82b4ff7fb6/tapo-0.8.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0453b82e33cb3a9bf1f6f9aab1e79b83412dddbb53aefbb5379ef6df5d669f5b", size = 3176933 },
+    { url = "https://files.pythonhosted.org/packages/bf/da/67832ecf854ad59d2be9d06d6a26936aac24d3b4df7cda68c79cb1f8a286/tapo-0.8.0-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:d3c75d7165370ef8a13bace4fe5ed3d042fd93cbf4e2c9105776373c0f64d8c0", size = 3124543 },
+    { url = "https://files.pythonhosted.org/packages/ce/85/287084d0247f7e8a9cd14b473d1035ed538c1db95704d540676e5b83c425/tapo-0.8.0-cp313-cp313-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:23db76a123ae17c337bf64870c5a9d9963825ab7a941f087ab1738775bbfdadc", size = 3425137 },
+    { url = "https://files.pythonhosted.org/packages/a1/05/7a65a10f613df56c89d9801fda4ccd4501cd686945b9333b03328e0623fc/tapo-0.8.0-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:e68f133ee6df44641a2abb05ce038313a6d7632f7d626f9e43ce3e8ccfe8d96a", size = 3343973 },
+    { url = "https://files.pythonhosted.org/packages/86/71/8e1d5717ae7687b87b658e5d1ec398a47175b04ff13a17bb79d6fb8f134e/tapo-0.8.0-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:c9624c5dd957afd6bd0c06992c4a0ce0299377f4ffc7a2bd9879a34eddf9869c", size = 3784024 },
+    { url = "https://files.pythonhosted.org/packages/94/46/0ddd426416bb6a3e5d73994dfded5d5b8670a82deddcbb456702315efee9/tapo-0.8.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f5f1b13e4f819f0a6a1e5d85c3efbc40b5e885de087d6d39a496bf92725c8c32", size = 3251560 },
+    { url = "https://files.pythonhosted.org/packages/fe/74/32f35ebd79f853d18a03e7e7a522cf1bf059680b964c5403eaffd18091bc/tapo-0.8.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:53f7e694ab5cf9ff930961d8274aa167f584bbcbc5effab0c30e1f3506a0c6bb", size = 3331716 },
+    { url = "https://files.pythonhosted.org/packages/b5/99/675d299645f0c29861a468b6163ceaa70ed250781926648753833c920c6e/tapo-0.8.0-cp313-cp313-musllinux_1_2_armv7l.whl", hash = "sha256:7cf7fb4b6c48611c27fca0bc4244b2f2bdbac5f9234c553da5ba001d23955c71", size = 3381235 },
+    { url = "https://files.pythonhosted.org/packages/b0/be/00ab84d2f62ba55661eccdf97936387ebacac4b2a1d086229b5540aa5f9b/tapo-0.8.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:1b37eb3f6a887f61b5e02ad5a2c034b2904adee578facd418c2afadd0ffff1c1", size = 3458858 },
+    { url = "https://files.pythonhosted.org/packages/27/e9/88589f94d374908e5e6120e252b594e3dcc4397c1112c8984fcc4a65c041/tapo-0.8.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:ba098c60fb0b33b8a4831077fbe574d9d65f0a6c103b0a4daf7cc1d2f1b840da", size = 3422993 },
+    { url = "https://files.pythonhosted.org/packages/b8/df/aa1b9a8e1944e5518f991038362e9613fa164eda3ca097d9144d17bdc78a/tapo-0.8.0-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1147f0c76455a218d403ee604610847e56270dadbaf8692966ff805fd7881069", size = 3179647 },
+    { url = "https://files.pythonhosted.org/packages/8c/6d/3363318234e23a03251180d8363b89a933239e07417d062fae95c74020fa/tapo-0.8.0-cp313-cp313t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:f314bbcc273e1a8ac5272e6256c84f6d02f86d5185f55c81a3c34e09ab75e8e8", size = 3116246 },
+    { url = "https://files.pythonhosted.org/packages/fd/93/305c77cda5c66056c5e898953c202e9d9bf89afbc122b01c28666c8bf2a4/tapo-0.8.0-cp313-cp313t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:9fd88dc8fb2992e3e319980b42fc7552b7b1cbc8601297265bd08db554135919", size = 3344415 },
+    { url = "https://files.pythonhosted.org/packages/8a/1c/bb2a08480c18e6a8007b730266930b596bdc6c3e4790bf408bfa2d0923a5/tapo-0.8.0-cp313-cp313t-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:5e95c021e07818f2f15f42329bfba5f7854bd134c439e280b41e0c9e48fabf57", size = 3771428 },
+    { url = "https://files.pythonhosted.org/packages/b3/75/9d3f14f9b4fccd48d592482cdd8ae522617d884150039a2a63ca6d58262d/tapo-0.8.0-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:867d6023a1c1a50e679104ef9293d6260d536520e8017430456347ab82444844", size = 3335109 },
+    { url = "https://files.pythonhosted.org/packages/9d/ee/b6e091786700f41c90959b952003b57b4c317455c696c120f98f8c479153/tapo-0.8.0-cp313-cp313t-musllinux_1_2_armv7l.whl", hash = "sha256:cf648ef86167317758deef7127564f7de49f6c16636adfed1ff77785a1eb70d6", size = 3375143 },
+    { url = "https://files.pythonhosted.org/packages/d9/bf/299c1da482d81b58e9bf762abc8720b46b8d5112a09774842e36223ce4ca/tapo-0.8.0-cp313-cp313t-musllinux_1_2_i686.whl", hash = "sha256:f25c37f884e262c25eb13a6bf22131f327ddac19de869286afe7259a3c76122e", size = 3450345 },
+    { url = "https://files.pythonhosted.org/packages/b6/63/b88fb1096cbbf779fcd8f9a15c720ce6afdf0065a5d708bd943e8f4f6406/tapo-0.8.0-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:27e1af6442d5a697824b4f27a66ef8d9b3a2d43cd185bf8e33cbd5162efca9f6", size = 3418723 },
+    { url = "https://files.pythonhosted.org/packages/16/cc/37045c365f91ed2bf455c9fac526dc174392cbb770eb812ffecfa786dc38/tapo-0.8.0-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ce78e1edcef15c3f9878a3e18205c901776f3fa0272741de75770431a5709b77", size = 3180163 },
+    { url = "https://files.pythonhosted.org/packages/39/8d/cb13b896fa46b4bcff98982faf9797a08d6148b2db95316d04a097d07aff/tapo-0.8.0-pp310-pypy310_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:bc02369037b6bcf43868520ccb3921c15a5ff35f679b5b1e30b9ed8513ea95bb", size = 3116510 },
+    { url = "https://files.pythonhosted.org/packages/42/6d/03d8abbfe3bb927de97daab4c92094050501529fd39d302c90e632cd22f9/tapo-0.8.0-pp310-pypy310_pp73-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:6d8575995171443118064152dfbefc2fe0a1aceecd05a27a844bc160f18f86e8", size = 3417149 },
+    { url = "https://files.pythonhosted.org/packages/30/4c/d6b05852cb463b82e45b3a07d1598ea4ee03786a437eabfdaa0cd2f6ce32/tapo-0.8.0-pp310-pypy310_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:3c69007e430caf081d346ae7b1796a63615dedeffcffe157816c7a7b8b9d4463", size = 3344635 },
+    { url = "https://files.pythonhosted.org/packages/0c/07/b0235294b714f488044b24f1245949b97a494b37eb9252368fec324786c1/tapo-0.8.0-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:1cebc6fd27210c6729f54507205d46cd81a967611d0a1bf8b535369bf6045b2e", size = 3789574 },
+    { url = "https://files.pythonhosted.org/packages/43/b0/9ebf496afd45aa593f12ab7cb0cdfdb29f17a3c3ce74d3d6137799e9ff8f/tapo-0.8.0-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3fce25505d72c0102537df76932e68d0af6fba10ea0e955bf93a5b7787b8e73c", size = 3247876 },
+    { url = "https://files.pythonhosted.org/packages/b5/ec/de3260cd5be07b031044daebee40f23cd87305d5bf6cf4744a5d3f3c38b2/tapo-0.8.0-pp310-pypy310_pp73-musllinux_1_2_aarch64.whl", hash = "sha256:f9499a07d29c1f02350759e9079d4f313665071ce6f051075461c6ce3ec18323", size = 3335382 },
+    { url = "https://files.pythonhosted.org/packages/a0/01/b9567eb488f78f1e2ae8f127ca83c55e29d97b59edb84783e1722df0dc9a/tapo-0.8.0-pp310-pypy310_pp73-musllinux_1_2_armv7l.whl", hash = "sha256:175ae25cfeb2d22f383f7a8571f518331d28e9f0fa9dac500cb706b9506a6d69", size = 3377010 },
+    { url = "https://files.pythonhosted.org/packages/a9/41/b6f5a7b27239a86b4b8ca3074c3fa016c3e2012c9dcbceabbeb11b86d143/tapo-0.8.0-pp310-pypy310_pp73-musllinux_1_2_i686.whl", hash = "sha256:e2ab3e3fdc5158d69244cb76f14f797fe28608feffe012571c38979a64088604", size = 3452113 },
+    { url = "https://files.pythonhosted.org/packages/2d/9c/16955c98b67d3f8d5dfae9a62194fba59b8ca531699f6283b96b2e8c8fbd/tapo-0.8.0-pp310-pypy310_pp73-musllinux_1_2_x86_64.whl", hash = "sha256:4f711de7e06e8236c3d713a54f982b6afd7df1b09b27f31d3a26a1542d8b3da0", size = 3418335 },
+]
+
+[[package]]
 name = "textual"
 version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2100,6 +2184,21 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/18/6c/57248070f525ea8a9a02d9f58dc2747c609b615b0bda1306aaeb80a233bd/textual_serve-1.1.1.tar.gz", hash = "sha256:71c662472c462e5e368defc660ee6e8eae3bfda88ca40c050c55474686eb0c54", size = 445957 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/07/a9/01d35770fde8d889e1fe28b726188cf28801e57afd369c614cd2bc100ee4/textual_serve-1.1.1-py3-none-any.whl", hash = "sha256:568782f1c0e60e3f7039d9121e1cb5c2f4ca1aaf6d6bd7aeb833d5763a534cb2", size = 445034 },
+]
+
+[[package]]
+name = "toggle-tapo"
+version = "0.1.0"
+source = { virtual = "examples/toggle-tapo" }
+dependencies = [
+    { name = "fastapi" },
+    { name = "tapo" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "fastapi", specifier = ">=0.115.6" },
+    { name = "tapo", specifier = ">=0.8.0" },
 ]
 
 [[package]]

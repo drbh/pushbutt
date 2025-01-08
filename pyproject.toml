@@ -26,3 +26,6 @@ dependencies = [
 build123d = { git = "https://github.com/gumyr/build123d", rev = "v0.7.0" }
 cadquery-ocp = { url = "https://github.com/jeremiahrose/ocp-build-system/releases/download/7.7.1.0/cadquery_ocp-7.7.1-cp311-cp311-macosx_11_0_arm64.whl" }
 ocp-tessellate = { git = "https://github.com/drbh/ocp-tessellate.git", rev = "add-get-curve-and-surface-utils" }
+
+[tool.uv.workspace]
+members = ["examples/toggle-tapo"]

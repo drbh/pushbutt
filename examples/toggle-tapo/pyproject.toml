@@ -1,0 +1,7 @@
+[project]
+name = "toggle-tapo"
+version = "0.1.0"
+description = "A FastAPI app to toggle TP-Link Tapo devices as a bridge for pushbutt devices"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["fastapi>=0.115.6", "tapo>=0.8.0"]
