@@ -61,3 +61,15 @@ now run the terminal client
 ```bash
 uv run tui.py
 ```
+
+<img width="1418" alt="pushbutttuiscreen" src="https://github.com/user-attachments/assets/6b0b903a-2625-4cc2-aaa7-b12699b95446" />
+
+
+### Basic Button with LED Pulse
+
+https://github.com/user-attachments/assets/c1ad821c-5877-4a84-b371-2b72acb9950c
+
+
+
+
+
